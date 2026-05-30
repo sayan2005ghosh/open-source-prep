@@ -1,9 +1,0 @@
-2026-05-28 20:42:06.860 [info] Started local extension host with pid 4251.
-2026-05-28 20:42:07.065 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
-2026-05-28 20:42:07.680 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
-2026-05-28 20:42:08.659 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
-2026-05-28 20:42:09.084 [info] Settings Sync: Account status changed from uninitialized to unavailable
-2026-05-28 20:42:09.788 [info] [perf] Render performance baseline is 16ms
-2026-05-28 20:42:13.660 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
-2026-05-28 20:42:19.004 [error] [File Watcher ('parcel')] Unexpected error: Permission denied (EUNKNOWN) (path: /)
-2026-05-28 20:42:19.006 [error] [File Watcher (universal)] Permission denied
