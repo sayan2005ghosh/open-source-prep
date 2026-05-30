@@ -1,0 +1,60 @@
+2026-05-28 20:42:26.328 [info] Extension host with pid 5194 started
+2026-05-28 20:42:26.546 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-28 20:42:26.565 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-28 20:42:26.576 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-05-28 20:42:26.738 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2026-05-28 20:42:27.050 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-05-28 20:42:27.241 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-28 20:42:27.516 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-28 20:42:27.558 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-28 20:42:27.601 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-28 20:42:27.621 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-05-28 20:42:27.702 [info] Eager extensions activated
+2026-05-28 20:42:27.765 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 20:42:27.768 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-28 20:42:30.226 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-05-28 21:08:47.038 [info] ExtensionService#_doActivateExtension vscode.references-view, startup: false, activationEvent: 'onCommand:references-view.showTypeHierarchy'
+2026-05-28 21:11:13.878 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-05-28 22:35:20.729 [info] Extension host terminating: received terminate message from renderer
+2026-05-28 22:35:20.742 [error] An error occurred when disposing the subscriptions for extension 'ms-python.vscode-python-envs':
+2026-05-28 22:35:20.742 [error] Error: Channel has been closed
+	at r (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:509:3935)
+	at Object.error (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:509:4394)
+	at Object.dispose (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:557403)
+	at /home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:556163
+	at Array.forEach (<anonymous>)
+	at A.dispose (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:556150)
+	at En (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:736)
+	at qP._fn (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:18391)
+	at qP.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+	at hP._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:14708)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12010
+	at Array.map (<anonymous>)
+	at hP._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:11998)
+	at hP.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12349)
+	at i.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:508:1072)
+	at Gs (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:11700)
+	at cp.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:9847)
+	at E._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ss.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+2026-05-28 22:35:20.743 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.te [as deactivate] (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:741102)
+	at hP._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:14483)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12010
+	at Array.map (<anonymous>)
+	at hP._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:11998)
+	at hP.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12349)
+	at i.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:508:1072)
+	at Gs (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:11700)
+	at cp.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:9847)
+	at E._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at ss.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+2026-05-28 22:35:20.744 [info] Extension host with pid 5194 exiting with code 0

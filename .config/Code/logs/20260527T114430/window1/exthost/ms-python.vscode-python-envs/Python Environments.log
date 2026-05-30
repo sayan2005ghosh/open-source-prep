@@ -1,0 +1,121 @@
+2026-05-27 11:44:33.076 [info] Python-envs extension version: 1.30.0
+2026-05-27 11:44:33.076 [info] 
+=== Python Envs Configuration Levels ===
+2026-05-27 11:44:33.076 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-05-27 11:44:33.076 [info] [pet] Starting Python Locator /home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/python-env-tools/bin/pet server
+2026-05-27 11:44:33.076 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-05-27 11:44:33.076 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-05-27 11:44:33.076 [info] Registering poetry manager (environments will be discovered lazily)
+2026-05-27 11:44:33.078 [warning] No workspace folder for relative search path: .venv
+2026-05-27 11:44:33.078 [warning] No workspace folder for relative search path: */.venv
+2026-05-27 11:44:33.078 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":[],"environmentDirectories":[],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/sayan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-05-27 11:44:33.118 [info] Discovered env: /usr/bin/python3
+2026-05-27 11:44:33.131 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at F (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:607042)
+	at runNextTicks (node:internal/process/task_queues:64:5)
+	at process.processImmediate (node:internal/timers:452:9)
+	at async L (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:607167)
+	at async t.registerCondaFeatures (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:627092)
+	at async t.safeRegister (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:282415)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:752995)]
+2026-05-27 11:44:33.133 [info] [interpreterSelection] Applying initial environment selection for 0 workspace folder(s)
+2026-05-27 11:44:33.139 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":40,"breakdown":{"GlobalVirtualEnvs":0,"Locators":33,"Path":40,"Workspaces":0},"locators":{"Conda":33,"Homebrew":0,"LinuxGlobal":29,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-27 11:44:33.144 [info] Extension for manager ms-python.python:venv is not active: Activating...
+2026-05-27 11:44:33.151 [info] [interpreterSelection] global: Python 3.12.3 (source: autoDiscovery)
+2026-05-27 11:44:33.157 [info] Python API: Changed environment from undefined to Python 3.12.3 for: global
+2026-05-27 11:44:33.158 [info] Internal: Changed environment from undefined to Python 3.12.3 for: global
+2026-05-27 11:44:33.264 [info] Refreshing pyenv environments
+2026-05-27 11:44:33.330 [info] Extension for manager ms-python.python:venv is now active.
+2026-05-27 11:44:33.334 [info] Refreshing Pyenv Environments
+2026-05-27 11:44:33.334 [info] Refreshing pyenv environments
+2026-05-27 11:44:33.334 [info] Refreshing Pipenv Environments
+2026-05-27 11:44:33.334 [info] Refreshing pipenv environments
+2026-05-27 11:44:33.334 [info] Refreshing Poetry Environments
+2026-05-27 11:44:33.334 [info] Refreshing poetry environments
+2026-05-27 11:44:33.335 [warning] No workspace folder for relative search path: .venv
+2026-05-27 11:44:33.335 [warning] No workspace folder for relative search path: */.venv
+2026-05-27 11:44:33.340 [info] Pipenv not found via settings, cache, or PATH
+2026-05-27 11:44:33.340 [info] Refreshing pipenv environments
+2026-05-27 11:44:33.363 [info] Discovered env: /usr/bin/python3
+2026-05-27 11:44:33.376 [warning] No workspace folder for relative search path: .venv
+2026-05-27 11:44:33.376 [warning] No workspace folder for relative search path: */.venv
+2026-05-27 11:44:33.380 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":34,"breakdown":{"GlobalVirtualEnvs":0,"Locators":23,"Path":33,"Workspaces":0},"locators":{"Conda":17,"Homebrew":0,"LinuxGlobal":22,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-27 11:44:33.495 [info] Discovered env: /usr/bin/python3
+2026-05-27 11:44:33.498 [warning] No workspace folder for relative search path: .venv
+2026-05-27 11:44:33.498 [warning] No workspace folder for relative search path: */.venv
+2026-05-27 11:44:33.503 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":27,"breakdown":{"GlobalVirtualEnvs":0,"Locators":21,"Path":27,"Workspaces":0},"locators":{"Conda":17,"Homebrew":0,"LinuxGlobal":20,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-27 11:44:33.524 [info] Discovered env: /usr/bin/python3
+2026-05-27 11:44:33.535 [warning] No workspace folder for relative search path: .venv
+2026-05-27 11:44:33.536 [warning] No workspace folder for relative search path: */.venv
+2026-05-27 11:44:33.537 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":29,"breakdown":{"GlobalVirtualEnvs":0,"Locators":19,"Path":29,"Workspaces":0},"locators":{"Conda":16,"Homebrew":0,"LinuxGlobal":18,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-27 11:44:33.562 [info] Discovered env: /usr/bin/python3
+2026-05-27 11:44:33.571 [warning] No workspace folder for relative search path: .venv
+2026-05-27 11:44:33.571 [warning] No workspace folder for relative search path: */.venv
+2026-05-27 11:44:33.595 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":30,"breakdown":{"GlobalVirtualEnvs":0,"Locators":24,"Path":30,"Workspaces":0},"locators":{"Conda":20,"Homebrew":0,"LinuxGlobal":19,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-27 11:44:33.599 [info] Pipenv not found via settings, cache, or PATH
+2026-05-27 11:44:33.599 [info] Found 0 pipenv environments
+2026-05-27 11:44:33.615 [info] Discovered env: /usr/bin/python3
+2026-05-27 11:44:33.626 [warning] No workspace folder for relative search path: .venv
+2026-05-27 11:44:33.626 [warning] No workspace folder for relative search path: */.venv
+2026-05-27 11:44:33.628 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":27,"breakdown":{"GlobalVirtualEnvs":0,"Locators":19,"Path":27,"Workspaces":0},"locators":{"Conda":16,"Homebrew":0,"LinuxGlobal":18,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-27 11:44:33.629 [info] Poetry executable not found
+2026-05-27 11:44:33.632 [info] Refreshing poetry environments
+2026-05-27 11:44:33.633 [info] Poetry executable not found
+2026-05-27 11:44:33.648 [info] Discovered env: /usr/bin/python3
+2026-05-27 11:44:33.654 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":23,"breakdown":{"GlobalVirtualEnvs":0,"Locators":18,"Path":23,"Workspaces":0},"locators":{"Conda":16,"Homebrew":0,"LinuxGlobal":17,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-27 11:44:33.654 [info] Pipenv not found via settings, cache, or PATH
+2026-05-27 11:44:33.654 [info] Found 0 pipenv environments
+2026-05-27 11:44:33.655 [info] Pipenv not found via settings, cache, or PATH
+2026-05-27 11:44:33.656 [info] Environment discovery complete: 1 environments found (Global: 1)
+2026-05-27 11:51:04.213 [info] runInTerminal: sendText /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:51:41.054 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:51:44.706 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:51:46.350 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:51:47.518 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:54:23.890 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:54:46.038 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:54:50.667 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:55:12.736 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:56:19.048 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:56:19.970 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:56:20.914 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:56:21.916 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:57:51.192 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 11:57:56.854 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/concept related to Bagels.py"
+2026-05-27 12:10:41.149 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:10:58.044 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:11:03.574 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:11:04.542 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:11:06.322 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:11:06.778 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:11:06.985 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:11:07.162 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:11:07.370 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:11:07.545 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:11:07.708 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:11:07.852 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:13:09.077 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:13:28.774 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:13:30.193 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:16:10.822 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:17:10.525 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:18:14.562 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:18:53.607 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:18:58.004 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:19:01.144 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"
+2026-05-27 12:23:54.180 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/PROBLEM'S OF uNIQUE RANDOMIZATION.py"

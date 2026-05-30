@@ -1,0 +1,32 @@
+{
+  "updates": {
+    "samba": {
+      "type": "security",
+      "since": "2026.05.27",
+      "days": 3
+    },
+    "gst-plugins-good1.0": {
+      "type": "security",
+      "since": "2026.05.28",
+      "days": 2
+    },
+    "libcaca": {
+      "type": "security",
+      "since": "2026.05.28",
+      "days": 2
+    },
+    "libgcrypt20": {
+      "type": "security",
+      "since": "2026.05.28",
+      "days": 2
+    },
+    "code": {
+      "type": "3rd-party",
+      "since": "2026.05.30",
+      "days": 1
+    }
+  },
+  "version": 1,
+  "checked": "2026.05.30",
+  "notified": "2026.05.25"
+}

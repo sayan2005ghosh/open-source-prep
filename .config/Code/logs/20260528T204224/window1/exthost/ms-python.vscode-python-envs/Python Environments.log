@@ -1,0 +1,86 @@
+2026-05-28 20:42:27.449 [info] Python-envs extension version: 1.30.0
+2026-05-28 20:42:27.449 [info] 
+=== Python Envs Configuration Levels ===
+2026-05-28 20:42:27.449 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-05-28 20:42:27.449 [info] [pet] Starting Python Locator /home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/python-env-tools/bin/pet server
+2026-05-28 20:42:27.449 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-05-28 20:42:27.449 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-05-28 20:42:27.449 [info] Registering poetry manager (environments will be discovered lazily)
+2026-05-28 20:42:27.451 [warning] No workspace folder for relative search path: .venv
+2026-05-28 20:42:27.451 [warning] No workspace folder for relative search path: */.venv
+2026-05-28 20:42:27.452 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":[],"environmentDirectories":[],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/sayan/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-05-28 20:42:27.482 [info] Discovered env: /usr/bin/python3
+2026-05-28 20:42:27.497 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at F (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:607042)
+	at runNextTicks (node:internal/process/task_queues:64:5)
+	at process.processImmediate (node:internal/timers:452:9)
+	at async L (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:607167)
+	at async t.registerCondaFeatures (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:627092)
+	at async t.safeRegister (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:282415)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/sayan/.vscode/extensions/ms-python.vscode-python-envs-1.30.0-linux-x64/dist/extension.js:2:752995)]
+2026-05-28 20:42:27.500 [info] [interpreterSelection] Applying initial environment selection for 0 workspace folder(s)
+2026-05-28 20:42:27.505 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":34,"breakdown":{"GlobalVirtualEnvs":0,"Locators":23,"Path":34,"Workspaces":0},"locators":{"Conda":18,"Homebrew":0,"LinuxGlobal":22,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-28 20:42:27.507 [info] Extension for manager ms-python.python:venv is not active: Activating...
+2026-05-28 20:42:27.519 [info] [interpreterSelection] global: Python 3.12.3 (source: autoDiscovery)
+2026-05-28 20:42:27.528 [info] Python API: Changed environment from undefined to Python 3.12.3 for: global
+2026-05-28 20:42:27.528 [info] Internal: Changed environment from undefined to Python 3.12.3 for: global
+2026-05-28 20:42:27.547 [info] Extension for manager ms-python.python:venv is now active.
+2026-05-28 20:42:27.553 [info] Refreshing Pyenv Environments
+2026-05-28 20:42:27.553 [info] Refreshing pyenv environments
+2026-05-28 20:42:27.553 [info] Refreshing Pipenv Environments
+2026-05-28 20:42:27.553 [info] Refreshing pipenv environments
+2026-05-28 20:42:27.553 [info] Refreshing Poetry Environments
+2026-05-28 20:42:27.553 [info] Refreshing poetry environments
+2026-05-28 20:42:27.553 [warning] No workspace folder for relative search path: .venv
+2026-05-28 20:42:27.553 [warning] No workspace folder for relative search path: */.venv
+2026-05-28 20:42:27.763 [info] Discovered env: /usr/bin/python3
+2026-05-28 20:42:27.795 [warning] No workspace folder for relative search path: .venv
+2026-05-28 20:42:27.795 [warning] No workspace folder for relative search path: */.venv
+2026-05-28 20:42:27.813 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":31,"breakdown":{"GlobalVirtualEnvs":0,"Locators":21,"Path":31,"Workspaces":0},"locators":{"Conda":18,"Homebrew":0,"LinuxGlobal":20,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-28 20:42:27.827 [info] Refreshing pyenv environments
+2026-05-28 20:42:27.876 [info] Discovered env: /usr/bin/python3
+2026-05-28 20:42:27.880 [warning] No workspace folder for relative search path: .venv
+2026-05-28 20:42:27.880 [warning] No workspace folder for relative search path: */.venv
+2026-05-28 20:42:27.886 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":44,"breakdown":{"GlobalVirtualEnvs":0,"Locators":34,"Path":43,"Workspaces":0},"locators":{"Conda":33,"Homebrew":0,"LinuxGlobal":29,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-28 20:42:27.889 [info] Pipenv not found via settings, cache, or PATH
+2026-05-28 20:42:27.890 [info] Refreshing pipenv environments
+2026-05-28 20:42:27.896 [info] Pipenv not found via settings, cache, or PATH
+2026-05-28 20:42:27.897 [info] Found 0 pipenv environments
+2026-05-28 20:42:27.901 [info] Pipenv not found via settings, cache, or PATH
+2026-05-28 20:42:27.907 [info] Refreshing poetry environments
+2026-05-28 20:42:27.939 [info] Poetry executable not found
+2026-05-28 20:42:27.943 [info] Discovered env: /usr/bin/python3
+2026-05-28 20:42:27.945 [warning] No workspace folder for relative search path: .venv
+2026-05-28 20:42:27.945 [warning] No workspace folder for relative search path: */.venv
+2026-05-28 20:42:27.948 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":42,"breakdown":{"GlobalVirtualEnvs":0,"Locators":34,"Path":42,"Workspaces":0},"locators":{"Conda":29,"Homebrew":0,"LinuxGlobal":26,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-28 20:42:27.949 [info] Environment discovery complete: 1 environments found (Global: 1)
+2026-05-28 20:42:27.972 [info] Discovered env: /usr/bin/python3
+2026-05-28 20:42:27.982 [warning] No workspace folder for relative search path: .venv
+2026-05-28 20:42:27.982 [warning] No workspace folder for relative search path: */.venv
+2026-05-28 20:42:27.984 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":30,"breakdown":{"GlobalVirtualEnvs":0,"Locators":23,"Path":30,"Workspaces":0},"locators":{"Conda":21,"Homebrew":0,"LinuxGlobal":19,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-28 20:42:27.987 [info] Pipenv not found via settings, cache, or PATH
+2026-05-28 20:42:27.987 [info] Found 0 pipenv environments
+2026-05-28 20:42:28.019 [info] Discovered env: /usr/bin/python3
+2026-05-28 20:42:28.027 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":38,"breakdown":{"GlobalVirtualEnvs":0,"Locators":32,"Path":38,"Workspaces":0},"locators":{"Conda":30,"Homebrew":2,"LinuxGlobal":28,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2026-05-28 20:42:28.028 [info] Poetry executable not found
+2026-05-28 21:11:13.603 [info] runInTerminal: sendText /usr/bin/python3 "/home/sayan/working with lists.py"
+2026-05-28 21:11:32.180 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/working with lists.py"
+2026-05-28 21:11:58.224 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/working with lists.py"
+2026-05-28 21:12:31.163 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/working with lists.py"
+2026-05-28 21:14:40.515 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/working with lists.py"
+2026-05-28 21:16:03.513 [info] runInTerminal: executeCommand /usr/bin/python3 "/home/sayan/working with lists.py"

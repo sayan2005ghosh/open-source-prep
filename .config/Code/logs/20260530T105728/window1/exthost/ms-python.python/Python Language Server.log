@@ -1,0 +1,20 @@
+2026-05-30 10:57:32.780 [info] Client: Pylance client (2026.2.1) started with python extension (2026.4.0)
+2026-05-30 10:57:33.331 [info] (5554): Server root directory: file:///home/sayan/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-05-30 10:57:33.331 [info] (5554): Pylance language server 2026.2.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-05-30 10:57:33.366 [info] (5554): Starting service instance "<default>" for workspace ""
+2026-05-30 10:57:34.254 [info] (5554): Loading background bundle file:///home/sayan/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into ...
+2026-05-30 10:57:34.523 [info] (5554): Starting Mcp server id:45727 ...
+2026-05-30 10:57:34.533 [info] (5554): FG(<default>): Setting environmentName for service "<default>": "Python 3.12.3"
+2026-05-30 10:57:34.534 [info] (5554): FG(<default>): Setting pythonPath for service "<default>": "/usr/bin/python3"
+2026-05-30 10:57:34.534 [info] (5554): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-05-30 10:57:34.535 [info] (5554): FG(<default>): Auto-excluding **/node_modules
+2026-05-30 10:57:34.535 [info] (5554): FG(<default>): Auto-excluding **/__pycache__
+2026-05-30 10:57:34.535 [info] (5554): FG(<default>): Auto-excluding **/.*
+2026-05-30 10:57:34.572 [info] (5554): FG(<default>): Assuming Python version 3.12.3.final.0
+2026-05-30 10:57:34.634 [info] (5554): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python3
+2026-05-30 10:57:34.643 [info] (5554): [Editable Installs] No sandbox available for Python /usr/bin/python3. Dynamic pth file resolution requires Python 3.13 or later.
+2026-05-30 10:57:34.669 [info] (5554): Settings have not changed. Skipping update.
+2026-05-30 10:57:34.799 [info] (5554): PQ(<default>): Priority queue background worker(2) root directory: file:///home/sayan/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-05-30 10:57:34.800 [info] (5554): PQ(<default>): Priority queue background worker(2) started
+2026-05-30 10:57:35.044 [error] (5554): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-05-30 10:57:35.045 [info] (5554): FG(<default>): No source files found.

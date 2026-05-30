@@ -1,0 +1,10 @@
+2026-05-28 20:42:24.760 [info] StorageMainService: creating application shared storage
+2026-05-28 20:42:24.760 [info] [shared storage] Creating shared storage database at '/home/sayan/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-05-28 20:42:24.760 [info] [shared storage] Initializing fallback application storage (path: /home/sayan/.config/Code/User/globalStorage/state.vscdb)
+2026-05-28 20:42:24.770 [info] [shared storage] Fallback application storage initialized with 97 items
+2026-05-28 20:42:24.771 [info] update#setState idle
+2026-05-28 20:42:54.773 [info] update#setState checking for updates
+2026-05-28 20:42:56.568 [info] update#setState idle
+2026-05-28 21:42:54.775 [info] update#setState checking for updates
+2026-05-28 21:42:55.963 [info] update#setState idle
+2026-05-28 22:35:20.745 [info] Extension host with pid 5194 exited with code: 0, signal: unknown.

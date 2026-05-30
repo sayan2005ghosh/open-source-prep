@@ -1,0 +1,114 @@
+**************************************************************************************** IT IS F STRING CONCEPT********************************************************************************************************************************
+
+
+name = "Leo"
+score = 95
+
+# The old way (+)
+print("Student: " + name + " - Score: " + str(score))
+
+# The f-string way (clean and precise)
+print(f"Student: {name} - Score: {score}")
+
+
+
+***************************************************************************************CONCEPT RELATED TO LOOP AND F STRING********************************************************************************************************************
+
+i = int(input("Which table you want: "))
+j = 1
+
+while j <= 10:
+    print(f"{i} * {j} = {i * j}")
+    j += 1
+
+
+***************************************************************************************CONCEPT RELATED TO SUM OF AP****************************************************************************************************************************
+
+def sum_of_AP():
+    a = int(input("Enter the first term (a): "))
+    d = int(input("Enter the common difference (d): "))
+    n = int(input("Enter the number of terms (n): "))
+    
+    # Applying the general formula
+    # We use // for integer division
+    value = (n * (2 * a + (n - 1) * d)) // 2
+    
+    print(f"The sum of the AP is: {value}")
+
+sum_of_AP()
+
+
+
+***************************************************************************************CONCEPT RELATED TO LOOP+IF STATEMENTS*******************************************************************************************************************
+
+
+
+k = 1
+while k <= 20:
+    # 1. The Filter: Only print if the remainder is 0
+    if k % 2 == 0:
+        print(k)
+    
+    # 2. The Engine: Move to the next number
+    k = k + 1
+
+
+
+*****************************************************************************************REMINDER CONCEPTS************************************************************************************************************************************
+
+
+
+
+num = int(input("Choose a number: "))
+
+if num % 2 == 0:
+    print("Even")
+    print(num * 2)  # No quotes, so it does the math!
+else:
+    print("Odd")
+    print(num * 3)
+
+
+
+
+
+
+
+*******************************************************************************************OR,AND STATEMENT CONCEPT****************************************************************************************************************************
+
+
+
+
+
+money = 50
+item_price = 100
+is_admin = True
+
+if money >= item_price or is_admin == True:
+    print("Success")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
