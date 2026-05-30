@@ -5,3 +5,7 @@
 2026-05-30 10:57:32.033 [info] > git rev-parse --show-toplevel [15ms]
 2026-05-30 10:57:32.033 [info] fatal: not a git repository (or any of the parent directories): .git
 2026-05-30 10:57:32.033 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-30 11:53:16.440 [info] > git rev-parse --show-toplevel [2ms]
+2026-05-30 11:53:16.450 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
+2026-05-30 11:53:20.359 [info] > git rev-parse --show-toplevel [3ms]
+2026-05-30 11:53:20.368 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
