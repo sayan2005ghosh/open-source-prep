@@ -6,3 +6,4 @@ This repository is a collection of my scripts as I learn Python.
 * 🛠️ **Bagles.py** - Logic is not yet correct (Learning phase).
 * 🛠️ **unique randomization.py** - Not yet correct (Learning phase).
 * ✅ **math.py** - Simple concept practice.
+*    **Secretsanta.py** - Logic is not yet correct(Learning phase).
