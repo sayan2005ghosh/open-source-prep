@@ -3,28 +3,28 @@
 
 #################unique sample()
 
-#import random
+import random
 
-#participants = ["Alice", "Bob", "Charlie", "Diana", "Edward"]
+participants = ["Alice", "Bob", "Charlie", "Diana", "Edward"]
 
 ################## Pick 1 unique winners
-#winners = random.sample(participants, 1)
+winners = random.sample(participants, 1)
 
-#print(f"The winners are: {winners}")
+print(f"The winners are: {winners}")
 ################## Output will always have 1 distinct names.
 #*********************************************************************************************************************************************************
 
-#Random.Suffle
+Random.Suffle
 
 
-#import random
+import random
 
-#deck = ["Jack", "Queen", "King", "Ace"]
+deck = ["Jack", "Queen", "King", "Ace"]
 
-# Shuffle the list in-place
-#random.shuffle(deck)
+#Shuffle the list in-place
+random.shuffle(deck)
 
-#print(f"Shuffled deck: {deck}")
+print(f"Shuffled deck: {deck}")
 # Every card is present, but the order is randomized.
 
 
@@ -32,12 +32,12 @@
 #UUID
 
 
-#import uuid
+import uuid
 
 # Generate a unique random ID
-#unique_id = uuid.uuid4()
+unique_id = uuid.uuid4()
 
-#print(f"Your unique session ID is: {unique_id}")
+print(f"Your unique session ID is: {unique_id}")
 
 
 
@@ -45,10 +45,10 @@
 
 #Stateful Iteration.
 
-#names = ["Sayan", "Barshan", "Ankan"]
+names = ["Sayan", "Barshan", "Ankan"]
 
-#for x in names:
- #   print(x)
+for x in names:
+   print(x)
 
 
 ###########1. for and in (The Loop)
@@ -62,9 +62,9 @@
 #gifts = ["Car", "Book", "Bag"]
 
 # This loop goes through the numbers 0, 1, 2
-#for i in [0, 1, 2]:
- #  item = gifts[i]
- #   print(f"{person} gets a {item}")
+for i in [0, 1, 2]:
+  item = gifts[i]
+    print(f"{person} gets a {item}")
 names = ["Sayan", "Barshan", "Ankan"]
 gifts = ["Car", "Book", "Bag"]
 
